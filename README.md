@@ -3,7 +3,6 @@
 ![React](https://img.shields.io/badge/React.js-Frontend-61DAFB?style=for-the-badge&logo=react)
 ![D3.js](https://img.shields.io/badge/D3.js-Visualization-orange?style=for-the-badge)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-Backend-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/LLaMA--3-HuggingFace-yellow?style=for-the-badge)
 
 **Transform GitHub repositories into interactive visual knowledge maps with AI-powered code understanding.**
@@ -14,7 +13,7 @@
 
 GitBud is an AI-powered full-stack developer tool designed to simplify repository exploration and codebase understanding.
 
-Large GitHub repositories can be difficult to navigate, especially for new contributors, students, or developers working with unfamiliar codebases. GitBud solves this by converting repository structures into **interactive radial knowledge maps**, enabling users to visually explore folders, files, and code relationships in an intuitive way.
+Large GitHub repositories can be difficult to navigate, especially for new contributors, students, or developers working with unfamiliar codebases. GitBud solves this by converting repository structures into **interactive hierarchical knowledge maps**, enabling users to visually explore folders, files, and code relationships in an intuitive way.
 
 Beyond visualization, GitBud integrates **Large Language Models (LLaMA-3 via Hugging Face)** to provide intelligent repository analysis, including automated summaries, code explanations, logic interpretation, and potential bug detection.
 
@@ -27,7 +26,7 @@ This makes GitBud a powerful assistant for **code onboarding, architecture under
 ### Interactive Repository Visualization
 Explore any public GitHub repository as a dynamic visual graph.
 
-- Radial tree visualization of repository structure
+- Hierarchical tree visualization of repository structure
 - Interactive node expansion for folders and files
 - Zoom, pan, and navigation support
 - Real-time structural exploration
@@ -101,9 +100,6 @@ to drastically reduce the time needed to understand complex projects.
 - **REST APIs**
 - **GitHub REST API**
 
-### Database
-- **MySQL**
-
 ### AI Integration
 - **Hugging Face Inference API**
 - **LLaMA-3**
@@ -135,8 +131,7 @@ to drastically reduce the time needed to understand complex projects.
                                    |
                                    v
                         +----------------------+
-                        |       MySQL DB       |
-                        | Repository Data      |
+                        |       Output       |
                         +----------------------+
 ```
 
@@ -209,7 +204,6 @@ Make sure you have:
 - npm
 - Java 17+
 - Maven
-- MySQL
 - GitHub API token (optional)
 - Hugging Face API key
 
